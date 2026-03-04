@@ -4,6 +4,12 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Ignacio Arsuaga — Fundador, Emprendedor, Abogado',
   description: 'Cofundador de CitizenGO y Hazte Oír. Abogado, emprendedor y padre de cinco. Madrid, España.',
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: '32x32' },
+    ],
+  },
   openGraph: {
     title: 'Ignacio Arsuaga',
     description: 'Cofundador de CitizenGO y Hazte Oír. Abogado, emprendedor y padre de cinco.',
