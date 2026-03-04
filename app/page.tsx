@@ -49,26 +49,25 @@ export default function Home() {
       <section className="py-16 px-6">
         <div className="max-w-3xl mx-auto space-y-6 text-white/70 text-lg leading-relaxed font-light">
           <p>
-            Cofundador de dos de las plataformas de activismo cívico más influyentes del mundo hispanohablante:
+            Soy cofundador de dos de las plataformas de activismo cívico más influyentes del mundo hispanohablante:
             <strong className="text-white font-medium"> Hazte Oír</strong> y <strong className="text-white font-medium">CitizenGO</strong>.
           </p>
           <p>
-            <strong className="text-white font-medium">Hazte Oír</strong> nació en 2001 como una voz ciudadana
-            organizada en defensa de la familia y los valores tradicionales. Hoy cuenta con más de 600.000 seguidores en España.
+            Fundé <strong className="text-white font-medium">Hazte Oír</strong> en 2001 como una voz ciudadana
+            organizada en defensa de la vida, la familia y la libertad. Hoy cuenta con más de 600.000 seguidores en España.
           </p>
           <p>
-            <strong className="text-white font-medium">CitizenGO</strong>, lanzada en 2013, es una plataforma global
-            de peticiones online activa en más de 40 países con más de 20 millones de seguidores. Considerada una de las
-            mayores plataformas de activismo conservador del mundo.
+            Lancé <strong className="text-white font-medium">CitizenGO</strong> en 2013. Es hoy una plataforma global
+            de peticiones online activa en más de 40 países con más de 20 millones de seguidores. Una de las
+            mayores plataformas de activismo provida y profamilia del mundo.
           </p>
           <p>
-            Actualmente dirijo también <strong className="text-white font-medium">Copygen.ai</strong>, una startup
-            de automatización empresarial mediante inteligencia artificial. La tesis: startups lean que funcionan con
-            un equipo mínimo de personas y agentes de IA trabajando 24/7.
+            Soy también cofundador de <strong className="text-white font-medium">Copygen.ai</strong>, una fábrica
+            de startups. La tesis: empresas lean que funcionan con un equipo mínimo de personas y agentes de IA trabajando 24/7.
           </p>
           <p>
-            Licenciado en Derecho por la <strong className="text-white font-medium">Universidad Pontificia Comillas (ICADE)</strong>.
-            Posgrado en <strong className="text-white font-medium">Fordham Law School</strong>, Nueva York.
+            Soy licenciado en Derecho por la <strong className="text-white font-medium">Universidad Pontificia Comillas (ICADE)</strong>
+            y tengo estudios de posgrado en <strong className="text-white font-medium">Fordham Law School</strong>, Nueva York.
           </p>
         </div>
       </section>

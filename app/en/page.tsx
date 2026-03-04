@@ -69,27 +69,25 @@ export default function HomeEN() {
       <section className="py-16 px-6">
         <div className="max-w-3xl mx-auto space-y-6 text-white/70 text-lg leading-relaxed font-light">
           <p>
-            Co-founder of two of the most influential civic activism platforms in the Spanish-speaking world:
+            I co-founded two of the most influential civic activism platforms in the Spanish-speaking world:
             <strong className="text-white font-medium"> Hazte Oír</strong> and <strong className="text-white font-medium">CitizenGO</strong>.
           </p>
           <p>
-            <strong className="text-white font-medium">Hazte Oír</strong>, founded in 2001, is a citizen activism
-            organization with over 600,000 followers in Spain. Created to provide an organized citizen voice in
-            defense of the family and traditional values.
+            I founded <strong className="text-white font-medium">Hazte Oír</strong> in 2001 as an organized citizen
+            voice in defense of life, the family and freedom. Today it has over 600,000 followers in Spain.
           </p>
           <p>
-            <strong className="text-white font-medium">CitizenGO</strong>, launched in 2013, is a global online
-            petition platform active in 40+ countries with more than 20 million supporters. Considered one of the
-            largest conservative activism platforms in the world.
+            I launched <strong className="text-white font-medium">CitizenGO</strong> in 2013. It is now a global online
+            petition platform active in 40+ countries with more than 20 million supporters. One of the largest
+            pro-life and pro-family activism platforms in the world.
           </p>
           <p>
-            I am also co-founder of <strong className="text-white font-medium">Copygen.ai</strong>, an AI startup
-            focused on automating business processes. The thesis: lean startups run by a minimal human team and
-            AI agents working around the clock.
+            I also co-founded <strong className="text-white font-medium">Copygen.ai</strong>, a startup factory.
+            The thesis: lean companies run by a minimal human team and AI agents working around the clock.
           </p>
           <p>
-            Law degree from <strong className="text-white font-medium">Universidad Pontificia Comillas (ICADE)</strong>.
-            Postgraduate studies at <strong className="text-white font-medium">Fordham Law School</strong>, New York.
+            I hold a law degree from <strong className="text-white font-medium">Universidad Pontificia Comillas (ICADE)</strong>
+            and completed postgraduate studies at <strong className="text-white font-medium">Fordham Law School</strong>, New York.
           </p>
         </div>
       </section>
