@@ -24,6 +24,7 @@ export async function POST(request: Request) {
       },
       body: JSON.stringify({
         from: 'arsuaga.net <noreply@mail.copygen.ai>',
+        replyTo: email,
         to: 'ignacio@copygen.ai',
         subject: `New message from arsuaga.net: ${name}`,
         html: `
