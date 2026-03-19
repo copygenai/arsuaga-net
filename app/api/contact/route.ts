@@ -23,7 +23,7 @@ export async function POST(request: Request) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'arsuaga.net <noreply@copygen.ai>',
+        from: 'arsuaga.net <noreply@mail.copygen.ai>',
         to: 'ignacio@copygen.ai',
         subject: `New message from arsuaga.net: ${name}`,
         html: `
@@ -51,7 +51,7 @@ export async function POST(request: Request) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'Ignacio Arsuaga <noreply@copygen.ai>',
+        from: 'Ignacio Arsuaga <noreply@mail.copygen.ai>',
         to: email,
         subject: isSpanish ? 'Gracias por tu mensaje' : 'Thanks for your message',
         html: `
