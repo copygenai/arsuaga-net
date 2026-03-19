@@ -24,8 +24,8 @@ export async function POST(request: Request) {
       },
       body: JSON.stringify({
         from: 'arsuaga.net <noreply@mail.copygen.ai>',
-        replyTo: email,
-        to: 'ignacio@copygen.ai',
+        reply_to: [email],
+        to: ['ignacio@copygen.ai'],
         subject: `New message from arsuaga.net: ${name}`,
         html: `
           <div style="font-family: Inter, system-ui, sans-serif; max-width: 600px; margin: 0 auto; padding: 24px;">
