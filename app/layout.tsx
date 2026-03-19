@@ -2,27 +2,19 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Ignacio Arsuaga — Fundador, Emprendedor, Abogado',
-  description: 'Cofundador de CitizenGO y Hazte Oír. Abogado, emprendedor y padre de cinco. Madrid, España.',
-  icons: {
-    icon: [
-      { url: '/favicon.svg', type: 'image/svg+xml' },
-      { url: '/favicon.ico', sizes: '32x32' },
-    ],
-  },
+  title: 'Ignacio Arsuaga — Founder, Entrepreneur, Activist',
+  description: 'Founder of CitizenGO and Hazte Oír. Building Civon and Copygen.ai. 19M+ supporters across 50 countries.',
   openGraph: {
     title: 'Ignacio Arsuaga',
-    description: 'Cofundador de CitizenGO y Hazte Oír. Abogado, emprendedor y padre de cinco.',
+    description: 'Founder of CitizenGO and Hazte Oír. Building Civon and Copygen.ai.',
     url: 'https://arsuaga.net',
     siteName: 'Ignacio Arsuaga',
-    locale: 'es_ES',
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'Ignacio Arsuaga',
-    description: 'Cofundador de CitizenGO y Hazte Oír. Abogado, emprendedor y padre de cinco.',
-    creator: '@iarsuaga',
+    description: 'Founder of CitizenGO and Hazte Oír. Building Civon and Copygen.ai.',
   },
 }
 
@@ -32,8 +24,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="es">
-      <body className="font-sans antialiased">{children}</body>
+    <html lang="es" className="scroll-smooth">
+      <body className="antialiased">{children}</body>
     </html>
   )
 }
