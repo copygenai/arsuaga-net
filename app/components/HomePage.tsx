@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
+import { FaXTwitter, FaLinkedinIn, FaInstagram, FaFacebookF } from 'react-icons/fa6'
 
 type ContentType = {
   nav: { lang: string; langHref: string }
@@ -160,11 +161,11 @@ export default function HomePage({ t }: { t: ContentType }) {
               <p className="text-xl md:text-2xl text-gold font-light tracking-wide mb-6">
                 {t.hero.subtitle}
               </p>
-              <div className="flex gap-4 justify-center md:justify-start">
-                <a href="https://x.com/iarsuaga" target="_blank" rel="noopener noreferrer" className="text-2xl hover:scale-110 transition-transform" title="X / Twitter">𝕏</a>
-                <a href="https://linkedin.com/in/iarsuaga" target="_blank" rel="noopener noreferrer" className="text-2xl hover:scale-110 transition-transform" title="LinkedIn">💼</a>
-                <a href="https://instagram.com/iarsuaga" target="_blank" rel="noopener noreferrer" className="text-2xl hover:scale-110 transition-transform" title="Instagram">📸</a>
-                <a href="https://facebook.com/iarsuaga" target="_blank" rel="noopener noreferrer" className="text-2xl hover:scale-110 transition-transform" title="Facebook">📘</a>
+              <div className="flex gap-5 justify-center md:justify-start">
+                <a href="https://x.com/iarsuaga" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors hover:scale-110 transition-transform" title="X / Twitter"><FaXTwitter size={22} /></a>
+                <a href="https://linkedin.com/in/iarsuaga" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#0A66C2] transition-colors hover:scale-110 transition-transform" title="LinkedIn"><FaLinkedinIn size={22} /></a>
+                <a href="https://instagram.com/iarsuaga" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#E4405F] transition-colors hover:scale-110 transition-transform" title="Instagram"><FaInstagram size={22} /></a>
+                <a href="https://facebook.com/iarsuaga" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#1877F2] transition-colors hover:scale-110 transition-transform" title="Facebook"><FaFacebookF size={22} /></a>
               </div>
             </div>
             <div className="flex-shrink-0">
@@ -322,10 +323,10 @@ export default function HomePage({ t }: { t: ContentType }) {
         <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">{t.footer.copy}</p>
           <div className="flex gap-5 items-center">
-            <a href="https://x.com/iarsuaga" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gold transition-colors text-lg" title="X / Twitter">𝕏</a>
-            <a href="https://linkedin.com/in/iarsuaga" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gold transition-colors text-lg" title="LinkedIn">💼</a>
-            <a href="https://instagram.com/iarsuaga" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gold transition-colors text-lg" title="Instagram">📸</a>
-            <a href="https://facebook.com/iarsuaga" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gold transition-colors text-lg" title="Facebook">📘</a>
+            <a href="https://x.com/iarsuaga" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-colors" title="X / Twitter"><FaXTwitter size={18} /></a>
+            <a href="https://linkedin.com/in/iarsuaga" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-[#0A66C2] transition-colors" title="LinkedIn"><FaLinkedinIn size={18} /></a>
+            <a href="https://instagram.com/iarsuaga" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-[#E4405F] transition-colors" title="Instagram"><FaInstagram size={18} /></a>
+            <a href="https://facebook.com/iarsuaga" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-[#1877F2] transition-colors" title="Facebook"><FaFacebookF size={18} /></a>
           </div>
         </div>
       </footer>
